@@ -120,7 +120,7 @@
   <rect x="900" y="0" width="700" height="500" fill="url(#dotMatrix)" opacity="0.6" />
 
   <!-- Top Subtle Highlight Bevel Line -->
-  <line x1="0" y1="1" x2="1600" y2="1" stroke="url(#silverStroke)" stroke-width="1.5" />
+  <line x1="0" y1="4" x2="1600" y2="4" stroke="url(#silverStroke)" stroke-width="1.5" />
 
   <!-- Left Side: Architectural Waves (Cross-Platform & Full-Stack Data Flow) -->
   <g opacity="0.45">
@@ -182,22 +182,22 @@
   </g>
 
   <!-- Left Technical Badges & Blueprint Typography -->
-  <g transform="translate(60, 70)">
+  <g transform="translate(64, 56)">
     <!-- Mission Telemetry Badge -->
-    <rect x="0" y="0" width="220" height="24" rx="4" fill="#09090b" fill-opacity="0.8" stroke="#3f3f46" stroke-width="1" />
+    <rect x="0" y="0" width="220" height="24" rx="4" fill="#09090b" fill-opacity="0.85" stroke="#3f3f46" stroke-width="1" />
     <circle cx="12" cy="12" r="3" fill="#ffffff" />
     <text x="24" y="16" font-family="'Inter', monospace" font-size="9" font-weight="700" fill="#f4f4f5" letter-spacing="2">SYSTEMS ARCHITECTURE</text>
 
     <!-- Header Title -->
-    <text x="0" y="70" font-family="'Inter', -apple-system, sans-serif" font-size="32" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+    <text x="0" y="65" font-family="'Inter', -apple-system, sans-serif" font-size="32" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
       ENTERPRISE SOFTWARE DELIVERY
     </text>
-    <text x="0" y="100" font-family="'Inter', -apple-system, sans-serif" font-size="15" font-weight="500" fill="#a1a1aa" letter-spacing="0.2">
+    <text x="0" y="96" font-family="'Inter', -apple-system, sans-serif" font-size="15" font-weight="500" fill="#a1a1aa" letter-spacing="0.2">
       Cross-Platform Applications · Scaled Agile Governance · Cloud Platforms
     </text>
 
     <!-- Technical Spec Pills -->
-    <g transform="translate(0, 135)">
+    <g transform="translate(0, 130)">
       <!-- Pill 1 -->
       <rect x="0" y="0" width="125" height="26" rx="6" fill="#18181b" stroke="#3f3f46" stroke-width="0.8" />
       <text x="62" y="17" font-family="'Inter', monospace" font-size="9" font-weight="600" fill="#e4e4e7" text-anchor="middle" letter-spacing="1">IOS ANDROID HYBRID</text>
@@ -214,32 +214,32 @@
 
   <!-- Precision Blueprint Technical Coordinate Markers -->
   <g stroke="#ffffff" stroke-width="1" opacity="0.25">
-    <!-- Top-Left Corner Bracket -->
-    <path d="M 30 45 L 45 45" />
-    <path d="M 45 30 L 45 45" />
+    <!-- Top-Left Corner Bracket (Safe Inset) -->
+    <path d="M 40 48 L 56 48" />
+    <path d="M 56 32 L 56 48" />
     
-    <!-- Top-Right Corner Bracket -->
-    <path d="M 1570 45 L 1555 45" />
-    <path d="M 1555 30 L 1555 45" />
+    <!-- Top-Right Corner Bracket (Safe Inset) -->
+    <path d="M 1560 48 L 1544 48" />
+    <path d="M 1544 32 L 1544 48" />
 
     <!-- Bottom-Left Corner Bracket -->
-    <path d="M 30 455 L 45 455" />
-    <path d="M 45 470 L 45 455" />
+    <path d="M 40 455 L 56 455" />
+    <path d="M 56 470 L 56 455" />
 
     <!-- Bottom-Right Corner Bracket -->
-    <path d="M 1570 455 L 1555 455" />
-    <path d="M 1555 470 L 1555 455" />
+    <path d="M 1560 455 L 1544 455" />
+    <path d="M 1544 470 L 1544 455" />
 
     <!-- Crosshair Target Center Markers -->
-    <path d="M 790 40 L 810 40" />
-    <path d="M 800 30 L 800 50" />
-    <circle cx="800" cy="40" r="6" fill="none" />
+    <path d="M 790 44 L 810 44" />
+    <path d="M 800 34 L 800 54" />
+    <circle cx="800" cy="44" r="6" fill="none" />
   </g>
 
   <!-- Bottom Coordinates Footer -->
   <g opacity="0.4">
-    <text x="60" y="475" font-family="'Inter', monospace" font-size="8" font-weight="600" fill="#71717a" letter-spacing="3">SYSTEM STATUS: OPTIMAL · GLOBAL DELIVERY ARCHITECTURE</text>
-    <text x="1540" y="475" font-family="'Inter', monospace" font-size="8" font-weight="600" fill="#71717a" text-anchor="end" letter-spacing="2">ENTERPRISE ARCHITECTURE · PORTFOLIO SHOWCASE</text>
+    <text x="64" y="475" font-family="'Inter', monospace" font-size="8" font-weight="600" fill="#71717a" letter-spacing="3">SYSTEM STATUS: OPTIMAL · GLOBAL DELIVERY ARCHITECTURE</text>
+    <text x="1536" y="475" font-family="'Inter', monospace" font-size="8" font-weight="600" fill="#71717a" text-anchor="end" letter-spacing="2">ENTERPRISE ARCHITECTURE · PORTFOLIO SHOWCASE</text>
   </g>
 </svg>
 
