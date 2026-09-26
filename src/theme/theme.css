@@ -1,0 +1,265 @@
+/* ==========================================================================
+   EXECUTIVE THEME SYSTEM
+   Single central styling configuration for all colors, surfaces, and typography.
+   Modify values here to change the look and feel across the entire app.
+   ========================================================================== */
+
+/* ------------------------------------------------------------------------
+   1. EXECUTIVE LIGHT (Refined Minimalist White & Royal Sapphire Accent)
+   ------------------------------------------------------------------------ */
+:root,
+.theme-light,
+html.theme-light {
+  --bg-canvas: #f8fafc;            /* Minimalist neutral soft canvas */
+  --bg-surface: #ffffff;           /* Crisp pure white card and header surface */
+  --bg-surface-hover: #f1f5f9;     /* Subtle light hover surface */
+  --bg-subtle: #f1f5f9;            /* Sub-container / stat box background */
+  
+  --border-subtle: #e2e8f0;        /* Clean hairline card borders */
+  --border-strong: #cbd5e1;        /* Focus and highlighted borders */
+  
+  --text-primary: #0f172a;         /* Deep obsidian slate headings */
+  --text-secondary: #334155;       /* High-contrast graphite body text */
+  --text-muted: #64748b;           /* Metadata, dates, and secondary labels */
+  
+  --accent-primary: #2563eb;       /* Primary action buttons (Royal Sapphire) */
+  --accent-hover: #1d4ed8;         /* Primary button hover */
+  --accent-text: #ffffff;          /* Text on accent buttons */
+  
+  --pill-bg: #f1f5f9;              /* Technical tag / chip background */
+  --pill-text: #1e293b;            /* Technical tag text */
+  --pill-border: #e2e8f0;          /* Technical tag border */
+  
+  --badge-bg: #1e293b;             /* Status badge background */
+  --badge-text: #ffffff;           /* Badge text */
+  --badge-border: #334155;         /* Badge border */
+
+  --metric-bg: #f1f5f9;            /* Metric callout box background */
+  --metric-text: #0f172a;          /* Metric text */
+  --metric-border: #e2e8f0;        /* Metric border */
+  
+  --card-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.03);
+  --card-shadow-hover: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+}
+
+/* ------------------------------------------------------------------------
+   2. EXECUTIVE DARK (Executive Titanium Slate & Glowing Azure Accent)
+   ------------------------------------------------------------------------ */
+.theme-dark,
+html.theme-dark {
+  --bg-canvas: #0e1117;            /* Deep titanium-slate canvas */
+  --bg-surface: #161b22;           /* Elevated graphite card surface */
+  --bg-surface-hover: #1f2530;     /* Distinct hover highlight */
+  --bg-subtle: #11151c;            /* Clean recessed sub-container */
+  
+  --border-subtle: #293140;        /* Crisp 1px hairline card borders */
+  --border-strong: #38bdf8;        /* Highlighted metallic borders */
+  
+  --text-primary: #f8fafc;         /* Crisp titanium white headings */
+  --text-secondary: #cbd5e1;       /* High-contrast silver-gray body text */
+  --text-muted: #94a3b8;           /* Legible metadata, dates, and subdued text */
+  
+  --accent-primary: #38bdf8;       /* Primary action buttons (Electric Azure) */
+  --accent-hover: #7dd3fc;         /* Button hover */
+  --accent-text: #0b1329;          /* High-contrast dark text on azure buttons */
+  
+  --pill-bg: #1c222c;              /* Technical tag background */
+  --pill-text: #e2e8f0;            /* Technical tag text */
+  --pill-border: #2e3849;          /* Technical tag border */
+  
+  --badge-bg: #212836;             /* Status badge background */
+  --badge-text: #f8fafc;           /* Badge text */
+  --badge-border: #3b475d;         /* Badge border */
+
+  --metric-bg: #131720;            /* Metric callout box background */
+  --metric-text: #f8fafc;          /* Metric text */
+  --metric-border: #283242;        /* Metric border */
+  
+  --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.35), inset 0 1px 0 0 rgba(255, 255, 255, 0.07);
+  --card-shadow-hover: 0 12px 28px -4px rgba(0, 0, 0, 0.55), inset 0 1px 0 0 rgba(255, 255, 255, 0.12);
+}
+
+/* ------------------------------------------------------------------------
+   3. PASTEL SAGE (Warm Herbal Sage, Eucalyptus & Crisp White)
+   ------------------------------------------------------------------------ */
+.theme-pastel-sage,
+html.theme-pastel-sage {
+  --bg-canvas: #f2f6f3;            /* Soothing soft pastel sage canvas */
+  --bg-surface: #ffffff;           /* Pure white card surface */
+  --bg-surface-hover: #e8f0ea;     /* Delicate sage hover */
+  --bg-subtle: #e7efe9;            /* Recessed sage sub-container */
+  
+  --border-subtle: #d3e2d5;        /* Soft herbal green hairline border */
+  --border-strong: #9ec2a1;        /* Eucalyptus highlight border */
+  
+  --text-primary: #12281b;         /* Deep forest charcoal headings (maximum contrast) */
+  --text-secondary: #274332;       /* Herbal forest body text */
+  --text-muted: #53755f;           /* Earthy sage metadata and dates */
+  
+  --accent-primary: #2d5a3e;       /* Deep sage/forest primary button */
+  --accent-hover: #224731;         /* Button hover */
+  --accent-text: #ffffff;          /* White text on button */
+  
+  --pill-bg: #e5f1e7;              /* Pastel sage tag */
+  --pill-text: #1d3d29;            /* Deep sage tag text */
+  --pill-border: #c4dec9;          /* Subtle herbal border */
+  
+  --badge-bg: #2d5a3e;             /* Badge background */
+  --badge-text: #f3f8f4;           /* Badge text */
+  --badge-border: #3f7954;         /* Badge border */
+
+  --metric-bg: #e9f3eb;            /* Metric callout box */
+  --metric-text: #12281b;          /* Metric text */
+  --metric-border: #cfe4d2;        /* Metric border */
+  
+  --card-shadow: 0 1px 3px 0 rgba(45, 90, 62, 0.06), 0 1px 2px -1px rgba(45, 90, 62, 0.04);
+  --card-shadow-hover: 0 10px 25px -5px rgba(45, 90, 62, 0.1), 0 8px 10px -6px rgba(45, 90, 62, 0.05);
+}
+
+/* ------------------------------------------------------------------------
+   4. PASTEL MINT (Breezy Seafoam Mint, Soft Ice & Clean Jade)
+   ------------------------------------------------------------------------ */
+.theme-pastel-mint,
+html.theme-pastel-mint {
+  --bg-canvas: #eff8f5;            /* Fresh airy pastel mint canvas */
+  --bg-surface: #ffffff;           /* Pure white card surface */
+  --bg-surface-hover: #e2f3ef;     /* Subtle seafoam hover */
+  --bg-subtle: #e1f4ef;            /* Recessed mint container */
+  
+  --border-subtle: #cbe6e0;        /* Crisp pastel mint hairline border */
+  --border-strong: #91cfc1;        /* Seafoam highlight border */
+  
+  --text-primary: #0c2b24;         /* Deep jade-graphite headings */
+  --text-secondary: #1e4a3f;       /* Dark jade body text */
+  --text-muted: #47796d;           /* Subdued mint slate labels */
+  
+  --accent-primary: #196451;       /* Vibrant jade-mint button */
+  --accent-hover: #124e3f;         /* Button hover */
+  --accent-text: #ffffff;          /* White text */
+  
+  --pill-bg: #def4ee;              /* Pastel mint pill */
+  --pill-text: #104e3e;            /* Deep jade text */
+  --pill-border: #b1e3d6;          /* Pastel mint border */
+  
+  --badge-bg: #196451;             /* Badge background */
+  --badge-text: #f0faf7;           /* Badge text */
+  --badge-border: #29856d;         /* Badge border */
+
+  --metric-bg: #e3f6f1;            /* Metric box */
+  --metric-text: #0c2b24;          /* Metric text */
+  --metric-border: #c1eadf;        /* Metric border */
+  
+  --card-shadow: 0 1px 3px 0 rgba(25, 100, 81, 0.06), 0 1px 2px -1px rgba(25, 100, 81, 0.04);
+  --card-shadow-hover: 0 10px 25px -5px rgba(25, 100, 81, 0.1), 0 8px 10px -6px rgba(25, 100, 81, 0.05);
+}
+
+/* ------------------------------------------------------------------------
+   5. PASTEL FOREST (Deep Pine Charcoal & Glowing Pastel Mint Accents)
+   ------------------------------------------------------------------------ */
+.theme-pastel-forest,
+html.theme-pastel-forest {
+  --bg-canvas: #09110d;            /* Deep midnight forest/pine canvas */
+  --bg-surface: #111d17;           /* Elevated dark pine-emerald card surface */
+  --bg-surface-hover: #17271f;     /* Luminous dark forest hover */
+  --bg-subtle: #0c1611;            /* Deep recessed container */
+  
+  --border-subtle: #1e382b;        /* Clean pine-graphite hairline border */
+  --border-strong: #33614a;        /* Luminous pastel green border highlight */
+  
+  --text-primary: #f0fdf4;         /* Crisp pastel mint white headings */
+  --text-secondary: #bbf7d0;       /* Soft pastel green secondary text */
+  --text-muted: #78a68b;           /* Muted herbal slate */
+  
+  --accent-primary: #4ade80;       /* Vibrant pastel neon mint / emerald button */
+  --accent-hover: #86efac;         /* Button hover */
+  --accent-text: #052e16;          /* Deep forest text on mint button */
+  
+  --pill-bg: #14291e;              /* Dark emerald pill */
+  --pill-text: #86efac;            /* Pastel mint text */
+  --pill-border: #224734;          /* Herbal border */
+  
+  --badge-bg: #163325;             /* Badge background */
+  --badge-text: #86efac;           /* Badge text */
+  --badge-border: #2d6145;         /* Badge border */
+
+  --metric-bg: #0e1a14;            /* Metric box */
+  --metric-text: #f0fdf4;          /* Metric text */
+  --metric-border: #1f382b;        /* Metric border */
+  
+  --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5), inset 0 1px 0 0 rgba(134, 239, 172, 0.08);
+  --card-shadow-hover: 0 12px 28px -4px rgba(0, 0, 0, 0.7), inset 0 1px 0 0 rgba(134, 239, 172, 0.15);
+}
+
+/* ------------------------------------------------------------------------
+   6. PASTEL OCEAN (Deep Midnight Navy & Pastel Cyan / Sky Accents)
+   ------------------------------------------------------------------------ */
+.theme-pastel-ocean,
+html.theme-pastel-ocean {
+  --bg-canvas: #090f19;            /* Deep oceanic navy canvas */
+  --bg-surface: #101a2b;           /* Elevated navy-sapphire card surface */
+  --bg-surface-hover: #16243b;     /* Luminous marine hover */
+  --bg-subtle: #0c1422;            /* Deep recessed container */
+  
+  --border-subtle: #1c2d46;        /* Clean sapphire-slate hairline border */
+  --border-strong: #38bdf8;        /* Glowing pastel cyan border highlight */
+  
+  --text-primary: #f0f7ff;         /* Crisp arctic white headings */
+  --text-secondary: #bae6fd;       /* Soft pastel sky blue secondary text */
+  --text-muted: #7ba4cc;           /* Marine slate metadata */
+  
+  --accent-primary: #38bdf8;       /* Pastel sky blue button */
+  --accent-hover: #7dd3fc;         /* Button hover */
+  --accent-text: #082f49;          /* Deep navy text on sky button */
+  
+  --pill-bg: #122238;              /* Dark navy pill */
+  --pill-text: #7dd3fc;            /* Pastel sky text */
+  --pill-border: #1f3d63;          /* Marine border */
+  
+  --badge-bg: #142842;             /* Badge background */
+  --badge-text: #7dd3fc;           /* Badge text */
+  --badge-border: #254d7d;         /* Badge border */
+
+  --metric-bg: #0d1726;            /* Metric box */
+  --metric-text: #f0f7ff;          /* Metric text */
+  --metric-border: #1c2d46;        /* Metric border */
+  
+  --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5), inset 0 1px 0 0 rgba(56, 189, 248, 0.08);
+  --card-shadow-hover: 0 12px 28px -4px rgba(0, 0, 0, 0.7), inset 0 1px 0 0 rgba(56, 189, 248, 0.15);
+}
+
+/* ------------------------------------------------------------------------
+   7. PASTEL SKY (Glacial Ice, Soft Powder Blue & Arctic Azure)
+   ------------------------------------------------------------------------ */
+.theme-pastel-sky,
+html.theme-pastel-sky {
+  --bg-canvas: #f0f6fc;            /* Glacial soft blue canvas */
+  --bg-surface: #ffffff;           /* Pure white card surface */
+  --bg-surface-hover: #e4effa;     /* Soft ice hover */
+  --bg-subtle: #e5f0fa;            /* Recessed powder blue container */
+  
+  --border-subtle: #cde0f2;        /* Crisp powder blue hairline border */
+  --border-strong: #8ec5fc;        /* Azure highlight border */
+  
+  --text-primary: #0b223d;         /* Deep oceanic navy headings */
+  --text-secondary: #1a3c63;       /* Marine slate body text */
+  --text-muted: #4a719c;           /* Subdued blue metadata */
+  
+  --accent-primary: #0284c7;       /* Azure blue button */
+  --accent-hover: #0369a1;         /* Button hover */
+  --accent-text: #ffffff;          /* White text */
+  
+  --pill-bg: #e0effa;              /* Powder blue pill */
+  --pill-text: #0284c7;            /* Blue pill text */
+  --pill-border: #b8daf5;          /* Blue pill border */
+  
+  --badge-bg: #0284c7;             /* Badge background */
+  --badge-text: #f0f9ff;           /* Badge text */
+  --badge-border: #38bdf8;         /* Badge border */
+
+  --metric-bg: #e5f1fc;            /* Metric box */
+  --metric-text: #0b223d;          /* Metric text */
+  --metric-border: #c8e0f7;        /* Metric border */
+  
+  --card-shadow: 0 1px 3px 0 rgba(2, 132, 199, 0.06), 0 1px 2px -1px rgba(2, 132, 199, 0.04);
+  --card-shadow-hover: 0 10px 25px -5px rgba(2, 132, 199, 0.1), 0 8px 10px -6px rgba(2, 132, 199, 0.05);
+}

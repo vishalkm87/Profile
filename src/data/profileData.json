@@ -1,0 +1,299 @@
+{
+  "personal": {
+    "name": "Jane Doe",
+    "monogram": "JD",
+    "headline": "Principal Systems Architect | Cloud Platforms & AI Solutions | Enterprise Technical Advisory",
+    "subHeadline": "Cross-Platform Application Specialist · Distributed Systems Engineering",
+    "currentCompany": "Company 1",
+    "currentRole": "Principal Architect",
+    "location": "San Francisco, CA",
+    "locationDetail": "Hybrid / Global Delivery | PST (UTC-8)",
+    "email": "jane.doe@example.com",
+    "phone": "+1 (555) 019-2834",
+    "availableForAdvisory": true,
+    "specializationBadge": "12+ Years Enterprise Experience",
+    "about": "Accomplished technology consultant and enterprise architect with over 12 years of experience designing, developing, and deploying resilient web, cloud-native, and cross-platform mobility platforms.\n\nProven track record of orchestrating large-scale digital modernization programs, establishing architectural governance frameworks, and mentoring high-performing engineering squads across distributed geographies.\n\nDeep domain experience across Enterprise Cloud, Distributed Systems, FinTech, and Data Compliance. Passionate about leveraging cloud-native architectures, micro-frontends, and AI-assisted workflows to accelerate business time-to-market.",
+    "avatar": "./avatar.svg",
+    "coverImage": "./banner.svg",
+    "experienceYears": "12+ Years",
+    "resumeUrl": "#",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/in/example",
+      "email": "mailto:jane.doe@example.com",
+      "phone": "tel:+15550192834"
+    }
+  },
+  "security": {
+    "enableCopyPaste": false
+  },
+  "stats": [
+    { "label": "Industry Experience", "value": "12+ Years" },
+    { "label": "Core Methodology", "value": "SAFe / Agile" },
+    { "label": "Key Domains", "value": "Enterprise & Cloud" },
+    { "label": "Architecture Focus", "value": "Cross-Platform" }
+  ],
+  "experiences": [
+    {
+      "id": "exp-1",
+      "role": "Principal Architect",
+      "company": "Company 1",
+      "companyInitial": "C1",
+      "companyColor": "bg-blue-600",
+      "employmentType": "Full-time",
+      "startDate": "Jan 2024",
+      "endDate": "Present",
+      "current": true,
+      "location": "San Francisco, CA",
+      "summary": "Directing enterprise-wide cloud modernization, event-driven architectures, and cross-platform technical roadmaps across multiple business units.",
+      "highlights": [
+        "Architected scalable cloud-native architectures aligning corporate strategy with engineering execution.",
+        "Provided architectural governance and technical strategy across 8 multi-disciplinary squads.",
+        "Reduced infrastructure operating expenditures by 35% through containerization and automated serverless pipelines."
+      ],
+      "skills": ["Enterprise Architecture", "Cloud Strategy", "Cross-Platform Systems", "Agile Leadership"]
+    },
+    {
+      "id": "exp-2",
+      "role": "Lead Architect",
+      "company": "Company 1",
+      "companyInitial": "C1",
+      "companyColor": "bg-indigo-600",
+      "employmentType": "Full-time",
+      "startDate": "Mar 2021",
+      "endDate": "Dec 2023",
+      "current": false,
+      "location": "San Francisco, CA",
+      "summary": "Led the technical design and delivery of mission-critical customer-facing web and mobile applications with 99.99% uptime.",
+      "highlights": [
+        "Spearheaded micro-frontend migration decoupling legacy monoliths into autonomous deployable units.",
+        "Designed resilient REST and GraphQL API gateways supporting 2M+ daily active sessions.",
+        "Mentored and upskilled 25+ senior engineers on modern TypeScript, React, and cloud patterns."
+      ],
+      "skills": ["TypeScript", "React", "Node.js", "GraphQL", "Microservices"]
+    },
+    {
+      "id": "exp-3",
+      "role": "Senior Systems Engineer",
+      "company": "Company 2",
+      "companyInitial": "C2",
+      "companyColor": "bg-teal-600",
+      "employmentType": "Full-time",
+      "startDate": "Jun 2017",
+      "endDate": "Feb 2021",
+      "current": false,
+      "location": "Seattle, WA",
+      "summary": "Developed high-performance hybrid mobile and web applications with offline-first synchronization and biometric security.",
+      "highlights": [
+        "Built cross-platform iOS and Android applications utilizing React Native and native bridge modules.",
+        "Implemented end-to-end telemetry, CI/CD automated test suites, and zero-downtime rollouts."
+      ],
+      "skills": ["React Native", "iOS / Android", "CI/CD", "REST APIs"]
+    },
+    {
+      "id": "exp-4",
+      "role": "Software Engineer",
+      "company": "Company 3",
+      "companyInitial": "C3",
+      "companyColor": "bg-zinc-700",
+      "employmentType": "Full-time",
+      "startDate": "Aug 2014",
+      "endDate": "May 2017",
+      "current": false,
+      "location": "Austin, TX",
+      "summary": "Engineered responsive full-stack features, optimized database queries, and collaborated in cross-functional agile sprints.",
+      "highlights": [
+        "Developed modular UI components and reusable front-end design systems.",
+        "Optimized application rendering performance, improving Lighthouse score from 62 to 98."
+      ],
+      "skills": ["JavaScript", "HTML5/CSS3", "SQL", "Git"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "Cloud Platform Modernization",
+      "category": "Cloud & Distributed Systems",
+      "featured": true,
+      "visible": true,
+      "description": "Comprehensive migration and architecture overhaul migrating legacy monoliths to resilient microservices on AWS and Kubernetes.",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800",
+      "tags": ["React", "Node.js", "AWS", "Kubernetes", "REST APIs"],
+      "metrics": "Reduced deployment turnaround times by 50% with zero downtime",
+      "demoUrl": null,
+      "githubUrl": null,
+      "highlights": [
+        "Architected microservices architecture supporting 1M+ active enterprise users",
+        "Orchestrated cross-functional delivery across 6 distributed engineering squads"
+      ]
+    },
+    {
+      "id": "proj-2",
+      "title": "Enterprise Mobility & Self-Service Portal",
+      "category": "Cross-Platform Mobile",
+      "featured": true,
+      "visible": true,
+      "description": "High-performance hybrid mobile application providing seamless cross-platform workflow automation and biometric authorization.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+      "tags": ["React Native", "TypeScript", "iOS / Android", "OAuth 2.0"],
+      "metrics": "Achieved 4.8-star app store rating with 500k+ downloads",
+      "demoUrl": null,
+      "githubUrl": null,
+      "highlights": [
+        "Unified codebase serving iOS and Android platforms seamlessly",
+        "Engineered offline caching layer ensuring uninterrupted access in disconnected environments"
+      ]
+    },
+    {
+      "id": "proj-3",
+      "title": "Healthcare Clinical Operations Hub",
+      "category": "Healthcare & Life Sciences",
+      "featured": true,
+      "visible": true,
+      "description": "HIPAA-compliant clinical operations suite integrating real-time telemetry, scheduling pipelines, and FHIR interoperability.",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800",
+      "tags": ["React", "TypeScript", "Tailwind CSS", "HIPAA Compliance"],
+      "metrics": "Accelerated provider onboarding workflows by 40%",
+      "demoUrl": null,
+      "githubUrl": null,
+      "highlights": [
+        "Designed strict role-based access control (RBAC) and audit trails",
+        "Integrated responsive data dashboards visualizing patient throughput"
+      ]
+    },
+    {
+      "id": "proj-4",
+      "title": "Scaled Agile Delivery & DevOps Governance",
+      "category": "Management & Strategy",
+      "featured": false,
+      "visible": true,
+      "description": "Enterprise delivery governance program establishing standardized CI/CD pipelines, release metrics, and automated quality gates.",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800",
+      "tags": ["SAFe 6.0", "DevOps", "GitHub Actions", "Quality Engineering"],
+      "metrics": "Decreased production defect leakages by 65%",
+      "demoUrl": null,
+      "githubUrl": null,
+      "highlights": [
+        "Formulated standardized architectural review board (ARB) governance guidelines",
+        "Delivered interactive technical workshops training 100+ software engineers"
+      ]
+    }
+  ],
+  "skillCategories": [
+    {
+      "category": "Languages & Frameworks",
+      "skills": [
+        { "name": "TypeScript / JavaScript", "level": "Expert", "years": "10+ yrs" },
+        { "name": "React / React Native", "level": "Expert", "years": "8+ yrs" },
+        { "name": "Node.js / Express", "level": "Expert", "years": "8+ yrs" },
+        { "name": "Python", "level": "Advanced", "years": "5+ yrs" },
+        { "name": "HTML5 / Modern CSS", "level": "Expert", "years": "12+ yrs" }
+      ]
+    },
+    {
+      "category": "Delivery Leadership & Methodologies",
+      "skills": [
+        { "name": "Scaled Agile Framework (SAFe)", "level": "Specialist", "years": "6+ yrs" },
+        { "name": "Scrum & Sprint Execution", "level": "Expert", "years": "9+ yrs" },
+        { "name": "Technical Program Leadership", "level": "Expert", "years": "7+ yrs" },
+        { "name": "Architecture Review & Governance", "level": "Specialist", "years": "8+ yrs" },
+        { "name": "Engineering Team Mentorship", "level": "Expert", "years": "8+ yrs" }
+      ]
+    },
+    {
+      "category": "Web & Cross-Platform Technologies",
+      "skills": [
+        { "name": "Tailwind CSS & Design Systems", "level": "Expert", "years": "6+ yrs" },
+        { "name": "REST & GraphQL APIs", "level": "Expert", "years": "10+ yrs" },
+        { "name": "Cross-Platform Mobile Integration", "level": "Expert", "years": "8+ yrs" },
+        { "name": "UI/UX Architecture & Prototyping", "level": "Advanced", "years": "7+ yrs" }
+      ]
+    },
+    {
+      "category": "Tools, Platforms & Cloud",
+      "skills": [
+        { "name": "AWS & Cloud Architecture", "level": "Advanced", "years": "6+ yrs" },
+        { "name": "Docker & Containerization", "level": "Advanced", "years": "5+ yrs" },
+        { "name": "Git & CI/CD Pipelines", "level": "Expert", "years": "10+ yrs" }
+      ]
+    },
+    {
+      "category": "Domain Expertise",
+      "skills": [
+        { "name": "Enterprise Digital Transformation", "level": "Specialist", "years": "7+ yrs" },
+        { "name": "Data Privacy & Compliance", "level": "Advanced", "years": "5+ yrs" },
+        { "name": "FinTech & Financial Systems", "level": "Specialist", "years": "6+ yrs" }
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-1",
+      "name": "AWS Certified Solutions Architect – Professional",
+      "issuer": "Amazon Web Services",
+      "issueDate": "Jan 2024",
+      "credentialId": "AWS-PSA-90214",
+      "credentialUrl": null,
+      "icon": "ShieldCheck",
+      "skills": ["Cloud Architecture", "AWS", "High Availability"]
+    },
+    {
+      "id": "cert-2",
+      "name": "Certified SAFe® 6 Agilist",
+      "issuer": "Scaled Agile, Inc.",
+      "issueDate": "Sep 2023",
+      "credentialId": "SAFE-882194",
+      "credentialUrl": null,
+      "icon": "Award",
+      "skills": ["SAFe 6.0", "Scaled Agile", "PI Planning"]
+    },
+    {
+      "id": "cert-3",
+      "name": "Generative AI Foundations & Engineering",
+      "issuer": "Industry Tech Consortium",
+      "issueDate": "Nov 2024",
+      "credentialId": "GENAI-44120",
+      "credentialUrl": null,
+      "icon": "Sparkles",
+      "skills": ["Generative AI", "LLMs", "Prompt Engineering"]
+    },
+    {
+      "id": "cert-4",
+      "name": "Certified ScrumMaster® (CSM®)",
+      "issuer": "Scrum Alliance",
+      "issueDate": "Feb 2022",
+      "credentialId": "CSM-102941",
+      "credentialUrl": null,
+      "icon": "CheckCircle2",
+      "skills": ["Scrum", "Sprint Delivery", "Agile Coaching"]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "University 1",
+      "degree": "Master of Science (MS)",
+      "field": "Software Engineering & Distributed Systems",
+      "startDate": "2012",
+      "endDate": "2014",
+      "period": "2012 – 2014",
+      "grade": "Grade: Distinction",
+      "location": "Berkeley, CA",
+      "activities": "Advanced research in distributed systems, mobile architectures, and fault-tolerant algorithms.",
+      "skills": ["Distributed Systems", "Cloud Computing", "Software Engineering"]
+    },
+    {
+      "id": "edu-2",
+      "institution": "University 2",
+      "degree": "Bachelor of Science (BS)",
+      "field": "Computer Science & Engineering",
+      "startDate": "2008",
+      "endDate": "2012",
+      "period": "2008 – 2012",
+      "grade": "Grade: Magna Cum Laude",
+      "location": "Seattle, WA",
+      "activities": "Focus on data structures, algorithmic design, and object-oriented architectures.",
+      "skills": ["Algorithms", "Data Structures", "Computer Science"]
+    }
+  ],
+  "recommendations": []
+}
