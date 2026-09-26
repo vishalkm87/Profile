@@ -1,9 +1,10 @@
-name: Manual Template Deploy
-# Triggered manually for testing. Production deployment is driven automatically
-# by your private data repository workflow.
+name: Deploy Profile to GitHub Pages
+# Deploys the public Profile portfolio directly to GitHub Pages using repository profile data.
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
-
 
 permissions:
   contents: read
@@ -24,7 +25,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 'latest'
+          node-version: '22'
           cache: 'npm'
 
       - name: Install dependencies
