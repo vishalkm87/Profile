@@ -52,16 +52,3 @@
   background: var(--text-muted);
 }
 
-/* Career timeline active / scroll-highlight illumination */
-.timeline-node-active {
-  border-color: var(--border-strong) !important;
-  color: var(--text-primary) !important;
-  background-color: var(--bg-surface) !important;
-  box-shadow: 0 0 16px -2px var(--border-strong);
-  transform: scale(1.05);
-}
-
-.timeline-connector-active {
-  background-color: var(--border-strong) !important;
-  box-shadow: 0 0 10px var(--border-strong);
-}

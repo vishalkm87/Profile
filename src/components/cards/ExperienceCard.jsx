@@ -1,42 +1,13 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 import { Calendar, MapPin } from 'lucide-react';
 
 export const ExperienceCard = ({ experience, isLast }) => {
-  const [isActive, setIsActive] = useState(false);
-  const cardRef = useRef(null);
-
-  useEffect(() => {
-    const el = cardRef.current;
-    if (!el) return;
-
-    // Detect when the card is in the active viewport reading area (especially for mobile scroll)
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setIsActive(entry.isIntersecting);
-      },
-      {
-        root: null,
-        // Active when card enters the viewport reading area:
-        rootMargin: '-15% 0px -35% 0px',
-        threshold: 0.1,
-      }
-    );
-
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
   return (
-    <div 
-      ref={cardRef} 
-      className={`relative flex gap-4 sm:gap-6 group transition-all duration-300 ${isActive ? 'is-active' : ''}`}
-    >
+    <div className="relative flex gap-4 sm:gap-6 group transition-all duration-300">
       {/* Timeline Indicator / Company Initial Badge */}
       <div className="flex flex-col items-center">
         <div 
-          className={`w-12 h-12 rounded-xl text-sm font-bold flex items-center justify-center shadow-sm flex-shrink-0 bg-[var(--bg-subtle)] border border-[var(--border-subtle)] text-[var(--text-secondary)] transition-all duration-300 group-hover:border-[var(--border-strong)] group-hover:text-[var(--text-primary)] group-hover:shadow-[0_0_12px_var(--border-strong)] ${
-            isActive ? 'timeline-node-active' : ''
-          }`}
+          className="w-12 h-12 rounded-xl text-sm font-bold flex items-center justify-center shadow-sm flex-shrink-0 bg-[var(--bg-subtle)] border border-[var(--border-subtle)] text-[var(--text-secondary)] transition-all duration-300 group-hover:border-[var(--border-strong)] group-hover:text-[var(--text-primary)] group-hover:bg-[var(--bg-surface)] group-hover:shadow-[0_0_12px_var(--border-strong)] group-hover:scale-105"
         >
           {experience.companyInitial || experience.company.slice(0, 2).toUpperCase()}
         </div>
@@ -44,11 +15,7 @@ export const ExperienceCard = ({ experience, isLast }) => {
         {/* Timeline connector bar */}
         {!isLast && (
           <div 
-            className={`w-0.5 flex-1 my-2 transition-all duration-300 ${
-              isActive 
-                ? 'timeline-connector-active' 
-                : 'bg-[var(--border-subtle)] group-hover:bg-[var(--border-strong)] group-hover:shadow-[0_0_6px_var(--border-strong)]'
-            }`} 
+            className="w-0.5 flex-1 my-2 transition-all duration-300 bg-[var(--border-subtle)] group-hover:bg-[var(--border-strong)] group-hover:shadow-[0_0_6px_var(--border-strong)]" 
           />
         )}
       </div>
